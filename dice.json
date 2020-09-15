@@ -1,0 +1,48 @@
+{
+ "Account": { "Username": "Apuxx",
+              "Password": "acit12345"
+              },
+
+ "Interface":{ "Base Bet":"0.0001",
+               "Max Bet":"20",
+               "Chance":"49",
+               "Random":{"Auto": "off",
+                         "Min" : "50",
+                         "Max" : "65"
+                        },
+
+               "Cl_Seed":{"Auto"       :"on",
+                          "Every_Lose" : "0"
+                         }
+              },
+
+ "BetSet":{ "Bet"   : "L",
+            "H / L" :{"Auto"   : "off",
+                      "On Lose": "3",
+                      "On Win" : "4"
+                     }
+          },
+
+ "Increase" :{ "After Win"  : "1",
+               "After Lose" : "1.2"
+             },
+
+ "Reset"    :{ "If_Win"   : "2",
+               "If_Lose"  : "1"
+             },
+
+ "Stop"    :{ "Balance"  : "350",
+              "If_Lose"  : "0",
+              "If_Prof"  : "5.01"
+             },
+
+ "Withdraw" :{"Auto"   : "OFF",
+              "Initial": "0",
+              "Trigger": "500000",
+              "Wallet_doge" : "D7wnb429X7NYzmSA8Xy8WescWnj9dqG8mP",
+              "Wallet_ltc" : "MFSk9QchuDoqDsz6Fj4VnLfrvi84nwSmJu",
+              "Wallet_btc" : "3BAm1NZGbyQwG436JNTrXnJzVzxq1uXHzN",
+              "Wallet_eth" : "0x1dba62e7348689fc726f00374456dbb33496b213"
+              
+             }
+}
